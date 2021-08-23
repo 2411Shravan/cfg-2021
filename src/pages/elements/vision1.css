@@ -1,0 +1,26 @@
+.main-section{
+    display:flex;
+    flex-direction: column;
+    
+}
+.vision h1{
+    font-weight: bolder;
+    font-size: 100px;
+}
+.main-container{
+    display:flex;
+    flex-direction: row;
+    
+}
+.img-fluid{
+    width:1300px;
+    height:1050px;
+}
+
+@media only screen and (max-width: 1200px){
+    .main-container{
+        display:flex;
+        flex-direction: column;
+       
+    }
+}

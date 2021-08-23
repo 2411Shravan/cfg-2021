@@ -1,0 +1,17 @@
+.contactMain{
+    margin-top: 100px;
+    background:rgb(238, 204, 177);
+    height:25vh;
+    display:flex;
+    align-items:center;
+}
+
+@media (max-width:600px){
+    .contactMain{
+        margin-top: 100px;
+        background:rgb(238, 204, 177);
+        height:35vh;
+        display:flex;
+        align-items:center;
+    }
+}

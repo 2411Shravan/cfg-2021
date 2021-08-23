@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Uchen&display=swap');
+
+h1{
+  font-family: 'Uchen', serif;
+  font-size: 70px;
+}
+
+
+
+
+
+.img-container{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+}
+.topCont{
+    margin-top: 200px;
+}
+
+img{
+    border-radius: 10px;
+}
+@media (max-width: 850px){
+    .img-container{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 60px;
+    
+    }
+    .Sponsor-images{
+        margin-bottom: 20px;
+    }
+    .topCont{
+        margin-top: 100px;
+    }
+}
+
+

@@ -1,0 +1,23 @@
+.activity{
+    margin-top:150px;
+}
+.acti-cards{
+    display:flex;
+    padding-top:80px;
+    align-items: center;
+}
+.cardStyle{
+    margin-right:10px;
+}
+
+@media(max-width:800px){
+    .acti-cards{
+        display:flex;
+        flex-direction: column;
+        padding-top:80px;
+        align-items: center;
+    }
+    .cardStyle{
+        margin-bottom:20px;
+    }
+}
